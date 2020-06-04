@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 10px;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    font-size: 1.6rem;
+    color: #ffffff;
+    padding: 1rem .5rem;
+    margin: 1rem;
+    border: 2px solid #ffffff;
+    width: 5rem;
+    transition: all .07s;
+    background: rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+.play {
+    transform: scale(1.1);
+    border-color: #ffec3f;
+    box-shadow: 0 0 10px #ffec3f;
+}
